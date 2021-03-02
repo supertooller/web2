@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>WebApplication2.Program</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\image\" />
+  </ItemGroup>
 
 </Project>
