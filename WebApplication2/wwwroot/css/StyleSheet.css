@@ -1,0 +1,88 @@
+﻿*{
+    /*border:1px solid;*/
+    background-color:antiquewhite;
+}
+body {
+
+}
+
+.left{
+    width:70%;
+    height:800px;
+    float:left;
+}
+
+.right{
+    width:30%;
+    height:800px;
+    float:right;
+}
+
+aside #rank-head li{
+    float:left;
+    list-style:none;
+    margin:10px;
+    border-style:dashed dashed none;
+    border-width:1px;
+    border-radius:3px;
+}
+
+nav li{
+    float:left;
+    margin:20px;
+    list-style:none;
+    
+}
+nav{
+    background-color:lightgray;
+}
+main{
+    
+}
+
+.clearfloat{
+    clear:both;
+}
+
+article{
+    border-bottom-style:dashed;
+    border-bottom-color:gray;
+}
+.keyword label{
+    font-weight:bolder;
+}
+
+.keyword span {
+    background-color: gray;
+    border-radius: 30%;
+    font-weight: bolder;
+    padding:2px;
+    color:white;
+}
+
+.interact a{
+    float:right;
+}
+
+span.author{
+    float:right;
+}
+
+.rank-num{
+    background-color:gray;
+    width:25px;
+    border-radius:2px;
+    text-align:center;
+}
+
+#rank-menber a{
+    padding-right:50px;
+    text-decoration-line:none;
+}
+
+#rank-list{
+    border-style:solid;
+    border-color:lightgray;
+    border-width:1px;
+    border-radius:5px;
+}
